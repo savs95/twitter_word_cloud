@@ -124,7 +124,7 @@ function word_cloud($words, $div_size = 400) {
 }
 
 
-if (1) {
+if (strlen($yo)!=0) {
 
     $text = $yo; 
     
@@ -147,7 +147,7 @@ else {
     
 
     $text = "";
-    
+    print "No recent tweet found";
     $word_count = $unique_words = $tags = 0;
     $word_cloud = null;
     
